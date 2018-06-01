@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/client/main.js"></script>
+
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-3 leftBlock"></div>
+      <div class="col-6 centerBlock">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10 main child">
+            <h3 align="center">Данные ребенка</h3>
+            <form>
+              <div class="form-row">
+                <div class="col-4 in">
+                  <input type="text" class="form-control childData" name="name" placeholder="Имя ребенка">
+                </div>
+                <div class="col-4 in">
+                  <input type="text" class="form-control childData" name="lastName" placeholder="Фамилия ребенка">
+                </div>
+                <div class="col-4 in">
+                  <input type="text" class="form-control childData" name="patronymic" placeholder="Отчество ребенка">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control childData" name="numberPhone" placeholder="Мобильный телефон ребенка">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control childData" name="dateBirthday" placeholder="Дата рождения ребенка">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control childData" name="schoolClass" placeholder="Школьный класс ребенка">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control childData" name="dataEntry" placeholder="Дата вступления в воскресную школу">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control childData" name="mail" placeholder="Електорнный почта ребенка">
+                </div>
+              </div>
+            </form>
+            <button type="button" id="child">Next</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10 main parents">
+            <h3 align="center">Данные родителей</h3>
+            <form>
+              <div class="form-row mid">
+                <div class="col-6 in">
+                  <input type="text" class="form-control parentsData" name="matherName" placeholder="Имя матери">
+                </div>
+                <div class="col-6 in">
+                  <input type="text" class="form-control parentsData" name="matherLastName" placeholder="Фамилия матери">
+                </div>
+                <div class="col-6 in">
+                  <input type="text" class="form-control parentsData" name="matherNumberPhone" placeholder="Мобильный телефон матери">
+                </div>
+                <div class="col-6 in">
+                  <input type="text" class="form-control parentsData" name="matherMail" placeholder="Електронная почта матери">
+                </div>
+              </div>
+              <hr color='black'>
+              <div class="form-row">
+                <div class="col-6 in">
+                  <input type="text" class="form-control parentsData" name="fatherName" placeholder="Имя отца">
+                </div>
+                <div class="col-6 in">
+                  <input type="text" class="form-control parentsData" name="fatherLastName" placeholder="Фамилия отца">
+                </div>
+                <div class="col-6 in">
+                  <input type="text" class="form-control parentsData" name="fatherNumberPhone" placeholder="Мобильный телефон отца">
+                </div>
+                <div class="col-6 in">
+                  <input type="text" class="form-control parentsData" name="fatherMail" placeholder="Електронная почта отца">
+                </div>
+              </div>
+            </form>
+            <button type="button" id="parents">Next</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10 main adress">
+            <h3 align="center">Адрес</h3>
+            <form>
+              <div class="form-row">
+                <div class="col-12 in">
+                  <input type="text" class="form-control adressData" name="street" placeholder="Улица">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control adressData" name="house" placeholder="Дом">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control adressData" name="apartment" placeholder="Квартира">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control adressData" name="city" placeholder="Город">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control adressData" name="ind" placeholder="Индекс">
+                </div>
+                <div class="col-12 in">
+                  <input type="text" class="form-control adressData" name="schoolNumber" placeholder="Номер Школы">
+                </div>
+              </div>
+            </form>
+            <button type="button" id="adress">Complete</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-3 rightBlock"></div>
+    </div>
+  </body>
+</html>
