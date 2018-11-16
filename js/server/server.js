@@ -13,9 +13,9 @@ app.use(bodyParser.json());
 
 app.options('*', cors());
 
-app.put('/insert', cors(corsOptions), function(req, res, next){
-	var insert = require('./insert');
-});
+// app.put('/insert', cors(corsOptions), function(req, res, next){
+// 	var insert = require('./insert');
+// });
 
 app.listen(3000, function () {
 	console.log('Example app listening on port 3000!');

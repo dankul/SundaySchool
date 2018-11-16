@@ -6,8 +6,14 @@ var connection = mysql.createConnection({
   database : 'sandaySchool'
 });
 
-function createChild() {
-  connection.connect();
+function createChild(data) {
+  connection.conect();
 
-  
-}
+  connection.query(INSERT INTO , function repack(data) {
+    console.log(data);
+  });
+
+  connection.end();
+};
+
+module.exports = createChild();
